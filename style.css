@@ -89,5 +89,6 @@ body{
 @media(max-width:350px){
     .container{
         max-width: 320px;
+        height: 580px;
     }
 }
