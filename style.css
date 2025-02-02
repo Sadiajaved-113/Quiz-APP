@@ -5,6 +5,7 @@
 }
 body{
     background: #001e4d;
+    overflow-y: hidden;
 }
 .container{
     max-width: 600px;
@@ -60,4 +61,34 @@ body{
 }
 .incorrect{
     background: rgb(231, 60, 60);
+}
+
+@media(max-width:600px){
+    .container{
+        max-width: 550px;
+    }
+}
+@media(max-width:555px){
+    .container{
+        max-width: 490px;
+    }
+}
+@media(max-width:490px){
+    .container{
+        max-width: 400px;
+        height:  500px;
+    }
+}
+@media(max-width:400px){
+    .container{
+        max-width: 350px;
+    }
+    .quiz h2{
+        font-size: 16px;
+    }
+}
+@media(max-width:350px){
+    .container{
+        max-width: 320px;
+    }
 }
